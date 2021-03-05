@@ -33,8 +33,8 @@ app.post("/api/sendMail", (req, res) => {
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-          user: 'jarrod.goodney@jarrodg.dev', // generated ethereal user
-          pass: 'Jarrodwg1996ymym', // generated ethereal password
+          user: process.env.USERNAME || process.env.USER, // generated ethereal user
+          pass: process.env.PASSWORD || process.env.PASS, // generated ethereal password
         },
       });
 
