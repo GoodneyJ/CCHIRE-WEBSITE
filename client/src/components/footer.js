@@ -23,6 +23,7 @@ export default function Footer(props) {
             message: message
         }
         
+
         document.querySelector('.name').value = '';
         document.querySelector('.email').value = '';
         document.querySelector('.message').value = '';
