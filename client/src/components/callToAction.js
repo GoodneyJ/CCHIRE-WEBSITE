@@ -26,7 +26,7 @@ export default function callToAction(props) {
             <div style={homeStyles} className="call-to-action-container">
                 <Navbar />
                 <div className="page-center-text">
-                    <h1 className="page-heading" style={{fontSize: 4+"rem"}}>{props.title}</h1>
+                    <h1 className="page-heading">{props.title}</h1>
                 </div>
             </div>  
         )

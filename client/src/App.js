@@ -7,6 +7,10 @@ import Services from './pages/services.js';
 import Contact from './pages/contact.js';
 
 import BannerOne from './IMAGES/article-banners/articleOne.jpeg';
+import BannerTwo from './IMAGES/article-banners/articleTwo.jpg';
+import BannerThree from './IMAGES/article-banners/articleThree.jpg';
+import BannerFour from './IMAGES/article-banners/articleFour.jpg'
+import BannerFive from './IMAGES/article-banners/articleFive.jpg'
 
 function App() {
   return (
@@ -50,7 +54,7 @@ function App() {
               </ul>,
               <p className="bold">CCHI RE, can do a study for your to see if your group is a candidate for Self Funding.</p>,
               <p>Please contact us for an estimate on the fee to do the study.</p>]}
-              img={BannerOne}
+              img={BannerTwo}
             />}
           />
           <Route path='/home/article-three' render={() =>
@@ -60,7 +64,7 @@ function App() {
                 <p>Make it stand out. Self-funded plans rely on competitive specific and aggregate rates and limits to remain efficient. Key in obtaining competitive rates is the risk management strategies to mitigate costs within the plan. Also key is the <span className="bold">relationships</span> built with the stop loss carriers in helping them understand why our risk management strategies enable them to offer some of the lowest rates. As the nation’s oldest stop-loss wholesaler, we have developed a large portfolio of carriers to work with. This reduces the chance that there is a better rate out there that the customer may have missed. The bottom line is this…what have you got to lose by letting us shop your group?</p>,
                 <p className="bold">You may end up with a stop loss rate and risk management that you will be very pleased with.</p>
               ]}
-              img={BannerOne}
+              img={BannerThree}
             />}
           />
           <Route path='/home/article-four' render={() =>
@@ -72,14 +76,14 @@ function App() {
                 <p>Because of the effectiveness of these risk management strategies, our partner carriers can and do consider premium discounts and favorable financial incentives making our markets very competitive. Our customers benefit directly through overall better group health and patient advocacy which is often required in high cost medical events. <span className="bold">CCHI Re, the heart of Risk Management.</span></p>,
                 <h3>Call us today for more information on how we can possibly reduce your claims costs.</h3>
               ]}
-              img={BannerOne}
+              img={BannerFour}
             />}
           />
           <Route path='/home/article-five' render={() =>
             <ArticlePage
               title="Our Early Intervention program saves money, maximizes patient care quality and retains clients."
               text='Brokers who focus solely on providing the lowest cost plan lose two ways. They cut their profitability, and when underwriters raise premiums they have no point of difference between them and the next cut-rate broker. brokers who work with CCHI can offer a significant risk management service and enhanced patient care to their clients in addition to low, low premiums. '
-              img={BannerOne}
+              img={BannerFive}
             />}
           />                                
         </Switch>

@@ -18,9 +18,27 @@ export default function services(props) {
             </div>
 
             <div id="services-list-container">
-                <ServiceItem />
-                <ServiceItem />
-                <ServiceItem />
+                <ServiceItem
+                    servOne='Group Captive and Re-insurance Plans'
+                    servTwo='Specific & Aggregate Excess Contracts (run-in & run-out coverage)'
+                    servThree='Variable Corridor Specific Excess'
+                />
+                <ServiceItem
+                    servOne='Variable Premium Specific Excess'
+                    servTwo='Aggregate Stop Loss Financial Instruments for Groups 
+                    with No Experience Available'
+                    servThree='Corporate Captive Buy-Down Specific Coverage'
+                />
+                <ServiceItem
+                    servOne='Private Label Reinsurance Products'
+                    servTwo='Insurance Carrier Auditing & Premium Accounting Services'
+                    servThree='Reinsurance for Jointly Managed Plans'
+                />
+                <ServiceItem
+                    servOne='Industry Specific Reinsurance Pools'
+                    servTwo='Claim Management and Early Intervention Program℠'
+                    servThree='Overlay Network Transplant Programs'
+                />
             </div>
 
             <Footer />

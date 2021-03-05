@@ -12,6 +12,7 @@ import articleOne from '../IMAGES/article-images/articleOne.jpg'
 import articleTwo from '../IMAGES/article-images/articleTwo.jpg'
 import articleThree from '../IMAGES/article-images/articleThree.jpg'
 import articleFour from '../IMAGES/article-images/articleFour.jpg'
+import articleFive from '../IMAGES/article-images/articleFive.jpg'
 
 export default function homepage(props) {
     document.title = "CCHI:RE | Home"
@@ -59,7 +60,7 @@ export default function homepage(props) {
                 <ArticleItem
                     title="Our Early Intervention program saves money, maximizes patient care quality and retains clients."
                     text='Brokers who focus solely on providing the lowest cost plan lose two ways.'
-                    img={articleOne}
+                    img={articleFive}
                     to="/home/article-five"
                 />
             </div>

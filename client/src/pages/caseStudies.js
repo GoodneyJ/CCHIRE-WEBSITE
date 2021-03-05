@@ -6,6 +6,10 @@ import Footer from '../components/footer.js';
 
 import CaseStudiesCTA from '../IMAGES/caseStudiesCTA.jpg'
 
+import studyOne from '../IMAGES/case-studies/studyOne.jpg';
+import studyTwo from '../IMAGES/case-studies/studyTwo.jpg';
+import studyThree from '../IMAGES/case-studies/studyThree.jpg';
+
 import '../css/App.css';
 
 export default function caseStudies(props) {
@@ -25,9 +29,9 @@ export default function caseStudies(props) {
             </div>
 
             <div id="case-study-container">
-                <CaseStudyItem title="CASE STUDY #1 Early Intervention. 35% Savings." text="The Early Intervention Program helps CCHI clients take charge of the  claims process before costs spiral out of control. That results in lower  costs, better patient outcomes, happier employers, and longer-term  business relationships. As an example, early intervention on a major  catastrophic case for a CCHI client allowed us to negotiate a global  buyout that resulted in 35% overall savings."/>
-                <CaseStudyItem title="CASE STUDY #2 Global Buyout. 22% Savings." text="An existing client had some problems regarding an employee's  eligibility for benefits. We negotiated a global buyout to cover the  cost of inpatient care on the claim which did not reach a specific  deductible. Both the lifetime maximum benefit and continuity of care  were maintained. The result was a 22% savings."/>
-                <CaseStudyItem title="CASE STUDY #3 Claim Audit. 40% Savings." text="When a Third Party Administrator advised us of overpayment on a claim  CCHI took action. We audited the charges and identified quality of care  issues. Taking that information to the insurer resulted in a refund to  our client resulting in 40% savings. For more information on how CCHI helps clients better manage their  self-insured healthcare programs, increase positive patient outcomes,  and contain healthcare costs, please give us a call or drop us an email."/>
+                <CaseStudyItem img={studyOne} title="CASE STUDY #1 Early Intervention. 35% Savings." text="The Early Intervention Program helps CCHI clients take charge of the  claims process before costs spiral out of control. That results in lower  costs, better patient outcomes, happier employers, and longer-term  business relationships. As an example, early intervention on a major  catastrophic case for a CCHI client allowed us to negotiate a global  buyout that resulted in 35% overall savings."/>
+                <CaseStudyItem img={studyTwo} title="CASE STUDY #2 Global Buyout. 22% Savings." text="An existing client had some problems regarding an employee's  eligibility for benefits. We negotiated a global buyout to cover the  cost of inpatient care on the claim which did not reach a specific  deductible. Both the lifetime maximum benefit and continuity of care  were maintained. The result was a 22% savings."/>
+                <CaseStudyItem img={studyThree} title="CASE STUDY #3 Claim Audit. 40% Savings." text="When a Third Party Administrator advised us of overpayment on a claim  CCHI took action. We audited the charges and identified quality of care  issues. Taking that information to the insurer resulted in a refund to  our client resulting in 40% savings. For more information on how CCHI helps clients better manage their  self-insured healthcare programs, increase positive patient outcomes,  and contain healthcare costs, please give us a call or drop us an email."/>
             </div>
 
             <Footer />
