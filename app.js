@@ -10,11 +10,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-const { sendEmail } = require('./mail');
 
-app.get('/', (req, res) => {
-  res.send('its working!')
-})
+
+
 
 app.post("/api/sendMail", (req, res) => {
     console.log(req.body);
