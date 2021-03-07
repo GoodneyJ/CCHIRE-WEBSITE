@@ -8,6 +8,3 @@ TECH:
   REACT, SASS, NODEJS, EXPRESS, NODEMAILER, AXIOS
   
   
-## EXTRAS
-
-<img src="https://media2.giphy.com/media/0TAoKPEssDuWTGDQuQ/giphy.gif" width="500">
