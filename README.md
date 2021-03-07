@@ -7,4 +7,6 @@ my first client site. The whole process was really easy until I tried introducin
 TECH:
   REACT, SASS, NODEJS, EXPRESS, NODEMAILER, AXIOS
   
-  
+## EXTRAS
+
+<img src="https://media3.giphy.com/media/6Dc1JaFi7OHqyt71CJ/giphy.gif" width="500" >
