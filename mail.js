@@ -9,8 +9,8 @@ const sendEmail = (to, name, type) => {
         host: 'jarrodg.dev',
         port: 993,
         auth: {
-            user: "jarrod.goodney@jarrodg.dev",
-            pass: "Jarrodwg1996ymym"
+            user: "",
+            pass: "
         }
     })
 
