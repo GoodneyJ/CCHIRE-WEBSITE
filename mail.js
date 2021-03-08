@@ -10,7 +10,7 @@ const sendEmail = (to, name, type) => {
         port: 993,
         auth: {
             user: "",
-            pass: "
+            pass: ""
         }
     })
 
